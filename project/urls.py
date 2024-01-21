@@ -21,7 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('', include('contact.urls')),
-    path('admin', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
 
 
